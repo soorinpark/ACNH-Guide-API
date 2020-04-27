@@ -11,9 +11,7 @@ def convertMonths(arr):
 	return months
 
 def convertHours(str):
-	# 4 PM - 9 AM
 	hours = str.split(' ')
-	print(hours)
 	newHour = int(hours[0])
 	if hours[1] == "PM":
 		newHour = newHour + 12
@@ -78,11 +76,11 @@ def main():
 						cols[j] = ele.a['href']
 
 		rows[i] = cols[:7]
-		print(rows[i])
-		print("=================")
-	jsonData = createJSONData(rows)
-	print(json.dumps(jsonData, sort_keys=True, indent=4, separators=(',', ': ')))
 
+	jsonData = createJSONData(rows)
+	print(json.dumps(jsonData, ensure_ascii=False, indent=4))
+	with open('fish.json', 'w', encoding='utf-8') as f:
+		json.dump(jsonData, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    main()
+	main()

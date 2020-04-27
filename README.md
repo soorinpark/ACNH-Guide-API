@@ -4,7 +4,7 @@ This repo parses the relevant pages from the Animal Crossing WiKi to a JSON obje
 As the wiki updates, there is a high chance that the script will be incompatible with the newest wiki's structure. If the new wiki updates to break the script, the plan is to incorporate caching to use the last successful set of data that was converted as the data until the scripts can be updated.
 
 ### Current Parsed Pages
-1. [Fish](https://animalcrossing.fandom.com/wiki/Fish_%28New_Horizons%29)
+1. [Fish](https://animalcrossing.fandom.com/wiki/Fish_%28New_Horizons%29) - [JSON Data](fish.json)
 
 ### To be Parse Pages (In Priority Order)
 1. [Bugs]([https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)))
