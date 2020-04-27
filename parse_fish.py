@@ -8,6 +8,7 @@ def convertMonths(arr):
 	for i, value in enumerate(arr):
 		if value == '✓':
 			months.append(i + 1)
+
 	return months
 
 def convertHours(str):
@@ -22,22 +23,40 @@ def convertTime(str):
 	json = {}
 	lowerTime = str.lower()
 	if lowerTime == "all day":
-		json = None
+		json['start'] = 0
+		json['end'] = 24
 	else:
 		times = str.split(' - ')
 		json['start'] = convertHours(times[0])
 		json['end'] = convertHours(times[1])
-
 	return json
+
+def convertAvailability(time, monthsArr):
+	isAllDay = time.lower() == "all day"
+	hours = convertTime(time)
+	months = convertMonths(monthsArr)
+	isAllYear = len(months) == 12
+	dict = { 
+		'hours': hours, 
+	 	'months': months,
+	 	'isAllDay': isAllDay,
+	 	'isAllYear': isAllYear 
+	}
+	return dict
+
 
 def createJSON(keyArr, valArr):
 	json = {}
 	for i in range(len(keyArr)):
-		json[keyArr[i]] = valArr[i]
+		if i == 2:
+			json[keyArr[i]] = int(valArr[i])
+		else:
+			json[keyArr[i]] = valArr[i]
 	return json
 
 def createJSONData(arr):
 	keys = [key.lower().replace(" ", "_") for key in arr[0]]
+	keys[-1] = "availability"
 	values = arr[1:]
 
 	data = { 'data': [] }
@@ -63,19 +82,19 @@ def main():
 			for j, ele in enumerate(cols):
 				if j > 6:
 					break
-				elif j == 6:
-					strippedCols = [ele.text.strip() for ele in cols[j:]]
-					months = convertMonths(strippedCols)
-					cols[j] = months
+				elif j == 5:
+					time = ele.text.strip()
+
+					months = [ele.text.strip() for ele in cols[j+1:]]
+					availability = convertAvailability(time, months)
+					cols[j] = availability
 				else:
 					if j == 0 or ele.a == None:
 						cols[j] = ele.text.strip()
-						if j == 5:
-							cols[j] = convertTime(cols[j])
 					else:
 						cols[j] = ele.a['href']
 
-		rows[i] = cols[:7]
+		rows[i] = cols[:6]
 
 	jsonData = createJSONData(rows)
 	print(json.dumps(jsonData, ensure_ascii=False, indent=4))
