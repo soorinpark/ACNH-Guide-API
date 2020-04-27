@@ -7,19 +7,40 @@
             "location": "River",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -29,26 +50,54 @@
             "location": "River",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -58,26 +107,54 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -87,26 +164,54 @@
             "location": "River",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -116,26 +221,54 @@
             "location": "Pond",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -145,26 +278,54 @@
             "location": "Pond",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -174,26 +335,54 @@
             "location": "Pond",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -203,26 +392,54 @@
             "location": "Pond",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -232,26 +449,54 @@
             "location": "Pond",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -261,19 +506,40 @@
             "location": "Pond",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -283,20 +549,42 @@
             "location": "Pond",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -306,16 +594,34 @@
             "location": "River",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        2,
+                        3
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -325,21 +631,44 @@
             "location": "River",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 21,
-                    "end": 4
+                "north": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -349,19 +678,40 @@
             "location": "Pond",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    3,
-                    4,
-                    5,
-                    6,
-                    7
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -371,18 +721,38 @@
             "location": "Pond",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -392,26 +762,54 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -421,17 +819,36 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    3,
-                    4,
-                    5
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -441,20 +858,42 @@
             "location": "Pond",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -464,17 +903,36 @@
             "location": "Pond",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -484,26 +942,54 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -513,20 +999,42 @@
             "location": "River",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -536,26 +1044,54 @@
             "location": "River",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -565,19 +1101,40 @@
             "location": "River",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -587,18 +1144,38 @@
             "location": "River",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        6
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -608,17 +1185,36 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -628,17 +1224,36 @@
             "location": "River",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -648,21 +1263,44 @@
             "location": "River (Clifftop)",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    3,
-                    4,
-                    5,
-                    6,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -672,21 +1310,44 @@
             "location": "River (Clifftop)  Pond",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    3,
-                    4,
-                    5,
-                    6,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -696,20 +1357,42 @@
             "location": "River (Clifftop)",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    3,
-                    4,
-                    5,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -719,18 +1402,38 @@
             "location": "River (Clifftop)",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -740,15 +1443,32 @@
             "location": "River (Mouth)",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -758,15 +1478,32 @@
             "location": "River (Mouth)",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -776,17 +1513,36 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -796,22 +1552,46 @@
             "location": "River",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -821,19 +1601,40 @@
             "location": "River",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -843,20 +1644,42 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -866,20 +1689,42 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -889,22 +1734,46 @@
             "location": "River",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -914,20 +1783,42 @@
             "location": "River",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -937,18 +1828,46 @@
             "location": "River",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 9,
-                    "end": 16
+                "north": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        },
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 9,
+                            "end": 16
+                        },
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -958,18 +1877,38 @@
             "location": "River",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -979,18 +1918,38 @@
             "location": "River",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 4,
-                    "end": 21
+                "north": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1000,18 +1959,38 @@
             "location": "Pond",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1021,18 +2000,38 @@
             "location": "River",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1042,18 +2041,38 @@
             "location": "River",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 21,
-                    "end": 4
+                "north": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1063,21 +2082,44 @@
             "location": "River (Mouth)",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1087,18 +2129,38 @@
             "location": "Sea",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1108,22 +2170,46 @@
             "location": "Sea",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1133,20 +2219,42 @@
             "location": "Sea",
             "shadow_size": "1",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1156,20 +2264,42 @@
             "location": "Sea",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1179,20 +2309,42 @@
             "location": "Sea",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1202,16 +2354,34 @@
             "location": "Sea",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 4,
-                    "end": 21
+                "north": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        7,
+                        8
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    7,
-                    8
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1221,22 +2391,46 @@
             "location": "Sea",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1246,18 +2440,38 @@
             "location": "Sea",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 21,
-                    "end": 4
+                "north": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 18,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1267,17 +2481,36 @@
             "location": "Sea",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1287,26 +2520,54 @@
             "location": "Sea",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 4,
-                    "end": 21
+                "north": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -1316,26 +2577,54 @@
             "location": "Sea",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -1345,23 +2634,48 @@
             "location": "Sea",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1371,26 +2685,54 @@
             "location": "Sea",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -1400,26 +2742,54 @@
             "location": "Sea",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -1429,21 +2799,44 @@
             "location": "Sea",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1453,26 +2846,54 @@
             "location": "Sea",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -1482,23 +2903,48 @@
             "location": "Sea",
             "shadow_size": "3",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1508,17 +2954,36 @@
             "location": "Sea",
             "shadow_size": "Narrow",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1528,19 +2993,40 @@
             "location": "Sea",
             "shadow_size": "Narrow",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1550,20 +3036,42 @@
             "location": "Pier",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1573,23 +3081,48 @@
             "location": "Pier",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        7,
+                        8,
+                        9,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    7,
-                    8,
-                    9,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1599,20 +3132,42 @@
             "location": "Pier",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1622,20 +3177,42 @@
             "location": "Pier",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1645,17 +3222,36 @@
             "location": "Sea",
             "shadow_size": "6 (Fin)",
             "availability": {
-                "hours": {
-                    "start": 4,
-                    "end": 21
+                "north": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1665,18 +3261,38 @@
             "location": "Sea",
             "shadow_size": "5",
             "availability": {
-                "hours": {
-                    "start": 4,
-                    "end": 21
+                "north": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    8,
-                    9,
-                    10,
-                    11
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 4,
+                            "end": 21
+                        }
+                    ],
+                    "months": [
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1686,18 +3302,38 @@
             "location": "Sea",
             "shadow_size": "6 (Fin)",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1707,18 +3343,38 @@
             "location": "Sea",
             "shadow_size": "6 (Fin)",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1728,18 +3384,38 @@
             "location": "Sea",
             "shadow_size": "6 (Fin)",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1749,18 +3425,38 @@
             "location": "Sea",
             "shadow_size": "6 (Fin)",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1770,18 +3466,38 @@
             "location": "Sea",
             "shadow_size": "4 (Fin)",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    6,
-                    7,
-                    8,
-                    9
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1791,19 +3507,40 @@
             "location": "Sea",
             "shadow_size": "4",
             "availability": {
-                "hours": {
-                    "start": 16,
-                    "end": 9
+                "north": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 16,
+                            "end": 9
+                        }
+                    ],
+                    "months": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1813,20 +3550,42 @@
             "location": "Sea",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": false
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": false
+                }
             }
         },
         {
@@ -1836,26 +3595,54 @@
             "location": "Sea",
             "shadow_size": "2",
             "availability": {
-                "hours": {
-                    "start": 21,
-                    "end": 4
+                "north": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": false,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 21,
+                            "end": 4
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": false,
+                    "isAllYear": true
+                }
             }
         },
         {
@@ -1865,26 +3652,54 @@
             "location": "Sea",
             "shadow_size": "6",
             "availability": {
-                "hours": {
-                    "start": 0,
-                    "end": 24
+                "north": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
                 },
-                "months": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12
-                ],
-                "isAllDay": true,
-                "isAllYear": true
+                "south": {
+                    "hours": [
+                        {
+                            "start": 0,
+                            "end": 24
+                        }
+                    ],
+                    "months": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "isAllDay": true,
+                    "isAllYear": true
+                }
             }
         }
     ]

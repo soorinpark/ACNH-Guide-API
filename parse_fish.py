@@ -12,24 +12,42 @@ def convertMonths(arr):
 	return months
 
 def convertHours(str):
-	hours = str.split(' ')
-	newHour = int(hours[0])
-	if hours[1] == "PM":
-		newHour = newHour + 12
-
-	return newHour
+	if " " in str:
+		hours = str.split(' ')
+		newHour = int(hours[0])
+		if hours[1] == "PM":
+			newHour = newHour + 12
+		return newHour
+	else:
+		newHour = int(str[0])
+		if "pm" in str.lower():
+			newHour = newHour + 12
+		return newHour
 
 def convertTime(str):
-	json = {}
+	timesArr = []
 	lowerTime = str.lower()
 	if lowerTime == "all day":
+		json = {}
 		json['start'] = 0
 		json['end'] = 24
+		timesArr.append(json)
+	elif "&" in lowerTime:
+		times = str.split(' & ')
+		for time in times:
+			splitTimes = time.split(' - ')
+			json = {}
+			json['start'] = convertHours(splitTimes[0])
+			json['end'] = convertHours(splitTimes[1])
+			timesArr.append(json)
 	else:
 		times = str.split(' - ')
+		json = {}
 		json['start'] = convertHours(times[0])
 		json['end'] = convertHours(times[1])
-	return json
+		timesArr.append(json)
+
+	return timesArr
 
 def convertAvailability(time, monthsArr):
 	isAllDay = time.lower() == "all day"
@@ -42,6 +60,7 @@ def convertAvailability(time, monthsArr):
 	 	'isAllDay': isAllDay,
 	 	'isAllYear': isAllYear 
 	}
+
 	return dict
 
 
@@ -66,37 +85,51 @@ def createJSONData(arr):
 	return data
 
 def main():
+
 	link = "https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"
 	f = requests.get(link)
 	soup = BeautifulSoup(f.text, 'html.parser')
+	div = soup.find_all('div', class_="tabbertab")
 
-	table = soup.find('table', class_='sortable')
-	rows = table.find_all('tr')
+	northTable = div[0].find('table')
+	southTable = div[1].find('table')
+	northRows = northTable.find_all('tr')
+	southRows = southTable.find_all('tr')
 
-	for i, row in enumerate(rows):
+	southTime = [ele.text.strip() for ele in southRows[1:]]
+
+	for i, row in enumerate(northRows):
 		cols = row.find_all('td')
+		southCols = southRows[i].find_all('td')
+
 		if i == 0:
 			cols = [ele.text.strip() for ele in row.find_all('th')]
 			cols[6] = "Months"
+			northRows[i] = cols
 		else:
 			for j, ele in enumerate(cols):
 				if j > 6:
 					break
 				elif j == 5:
-					time = ele.text.strip()
+					northTime = ele.text.strip()
+					northMonths = [ele.text.strip() for ele in cols[j+1:]]
+					north = convertAvailability(northTime, northMonths)
 
-					months = [ele.text.strip() for ele in cols[j+1:]]
-					availability = convertAvailability(time, months)
-					cols[j] = availability
+					southTime = southCols[j].text.strip()
+					southMonths = [ele.text.strip() for ele in southCols[j+1:]]
+					south = convertAvailability(southTime, southMonths)
+
+					cols[j] = { 'north': north, 'south': south }
 				else:
 					if j == 0 or ele.a == None:
 						cols[j] = ele.text.strip()
 					else:
 						cols[j] = ele.a['href']
 
-		rows[i] = cols[:6]
+		northRows[i] = cols[:6]
 
-	jsonData = createJSONData(rows)
+	northRows.pop(1)
+	jsonData = createJSONData(northRows)
 	print(json.dumps(jsonData, ensure_ascii=False, indent=4))
 	with open('fish.json', 'w', encoding='utf-8') as f:
 		json.dump(jsonData, f, ensure_ascii=False, indent=4)
