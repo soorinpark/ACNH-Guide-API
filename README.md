@@ -5,12 +5,12 @@ As the wiki updates, there is a high chance that the script will be incompatible
 
 ### Current Parsed Pages
 1. [Fish](https://animalcrossing.fandom.com/wiki/Fish_%28New_Horizons%29) - [JSON Data](fish.json)
+2. [Bugs](https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)) - [JSON Data](bugs.json)
 
 ### To be Parse Pages (In Priority Order)
-1. [Bugs]([https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)))
-2. [Fossils]([https://animalcrossing.fandom.com/wiki/Fossils_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Fossils_(New_Horizons)))
-3. [Villagers]([https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)))
-4. [Events]([https://animalcrossing.fandom.com/wiki/Events_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Events_(New_Horizons)))
+1. [Fossils]([https://animalcrossing.fandom.com/wiki/Fossils_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Fossils_(New_Horizons)))
+2. [Villagers]([https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)))
+3. [Events]([https://animalcrossing.fandom.com/wiki/Events_(New_Horizons)](https://animalcrossing.fandom.com/wiki/Events_(New_Horizons)))
 
 ## Usage
 The parser is written in Python. To run, you can either manually install the dependencies or rely on the virtual environment as well as the requirements file to manage it for you more efficiently. 
