@@ -3,6 +3,11 @@ This repo parses the relevant pages from the Animal Crossing WiKi to a JSON obje
 
 As the wiki updates, there is a high chance that the script will be incompatible with the newest wiki's structure. If the new wiki updates to break the script, the plan is to incorporate caching to use the last successful set of data that was converted as the data until the scripts can be updated.
 
+This API uses
+- BeautifulSoup: parsing the AC:NH Wiki
+- Flask: web framework
+- Balena: host server
+
 ### Current Parsed Pages
 1. [Fish](https://animalcrossing.fandom.com/wiki/Fish_%28New_Horizons%29) - [JSON Data](fish.json)
 2. [Bugs](https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)) - [JSON Data](bugs.json)
@@ -17,8 +22,8 @@ The parser is written in Python. To run, you can either manually install the dep
 
 #### To Run:
 1. `python3 -m venv env`
-2. `pip3 install -r requirements.txt`
-3. `source env/bin/activate`
+2. `source env/bin/activate`
+3. `pip3 install -r requirements.txt`
 4. `python3 parse_fish.py`
 
 ---

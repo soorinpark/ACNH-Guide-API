@@ -85,8 +85,7 @@ def createJSONData(arr):
 	
 	return data
 
-def main():
-
+def bugsMain():
 	link = "https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)"
 	f = requests.get(link)
 	soup = BeautifulSoup(f.text, 'html.parser')
@@ -136,8 +135,9 @@ def main():
 	northRows.pop(1)
 	jsonData = createJSONData(northRows)
 	print(json.dumps(jsonData, ensure_ascii=False, indent=4))
-	with open('bugs.json', 'w', encoding='utf-8') as f:
+	with open('data/bugs.json', 'w', encoding='utf-8') as f:
 		json.dump(jsonData, f, ensure_ascii=False, indent=4)
+	return json.dumps(jsonData, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-	main()
+	bugsMain()

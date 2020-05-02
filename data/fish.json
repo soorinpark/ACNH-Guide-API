@@ -2459,7 +2459,7 @@
                 "south": {
                     "hours": [
                         {
-                            "start": 18,
+                            "start": 21,
                             "end": 4
                         }
                     ],
@@ -3649,7 +3649,7 @@
             "name": "Coelacanth",
             "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png/revision/latest?cb=20200401003129",
             "price": 15000,
-            "location": "Sea",
+            "location": "Sea (Raining)",
             "shadow_size": "6",
             "availability": {
                 "north": {
