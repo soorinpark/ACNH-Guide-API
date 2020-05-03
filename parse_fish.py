@@ -86,7 +86,7 @@ def createJSONData(arr):
 
 def fishMain():
 
-	link = "https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)"
+	link = "https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons"
 	f = requests.get(link)
 	soup = BeautifulSoup(f.text, 'html.parser')
 	div = soup.find_all('div', class_="tabbertab")
