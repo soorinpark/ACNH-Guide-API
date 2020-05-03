@@ -9,11 +9,19 @@ print(os.environ['APP_SETTINGS'])
 
 @app.route('/fish')
 def parseFish():
-	return fishMain()
+	try:
+		return fishMain()
+	except:
+		with open('data/fish.json', 'r') as f:
+		    return f.read()
 
 @app.route('/bugs')
 def parseBugs():
-	return bugsMain()
+	try:
+		return bugsMain()
+	except:
+		with open('data/bugs.json', 'r') as f:
+		    return f.read()
 
 if __name__ == '__main__':
     app.run()
