@@ -11,7 +11,8 @@ print(os.environ['APP_SETTINGS'])
 def parseFish():
 	try:
 		return fishMain()
-	except:
+	except Exception as e: 
+		print(e)
 		with open('data/fish.json', 'r') as f:
 		    return f.read()
 
@@ -19,7 +20,8 @@ def parseFish():
 def parseBugs():
 	try:
 		return bugsMain()
-	except:
+	except Exception as e: 
+		print(e)
 		with open('data/bugs.json', 'r') as f:
 		    return f.read()
 
